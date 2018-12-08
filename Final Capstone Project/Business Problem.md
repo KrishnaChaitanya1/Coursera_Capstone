@@ -1,7 +1,7 @@
 # Business Problem
 
 
-**Identifying the relation between food in Toronto, Canada and Paris, France.**
+**Identifying the relation between food in Toronto, Canada and Paris, France.**  
 How does the types of cuisines in Toronto and Paris vary?
 Does French cuisine has more domination in Toronto? Or any other cuisines are popular in Toronto and Paris?
 These are a few of the questions to be answered in the notebook.  
