@@ -23,5 +23,5 @@ The final CSV File will have the following features:
 4. Latitude
 5. Longitude
 
-The above mentioned datasets are used in conjunction with the [Foursquare API](www.foursquare.com]).
+The above mentioned datasets are used in conjunction with the [Foursquare API](www.foursquare.com).
 This markdown will be updated whenever the datasets are updated.
