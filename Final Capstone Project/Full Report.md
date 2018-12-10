@@ -1,11 +1,11 @@
 # Full Report on the Capstone
 
 ## Sections:
-**1. Introduction (Business Problem.md to be added)**
-**2. Data Description.md to be added**
-**3. Methodology: EDA, Inferential Statistics, Machine Learning to be added**
-**4. Results**
-**5. Discussions: Observations and Recommendations to be made**
+**1. Introduction (Business Problem.md to be added)**  
+**2. Data Description.md to be added**  
+**3. Methodology: EDA, Inferential Statistics, Machine Learning to be added**  
+**4. Results**  
+**5. Discussions: Observations and Recommendations to be made**  
 **6. Conclusion**
 
 
