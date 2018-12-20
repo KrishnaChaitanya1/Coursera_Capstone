@@ -70,4 +70,4 @@ Once that is done, a machine learning algorithm is used, preferably **K-means**,
 
 
 ## Conclusion
-Therefore, this notebook serves as a reference to identify the relations between food cuisines between Toronto and Paris.
+Therefore, this notebook serves as a reference to identify the relations between food cuisines between Toronto and Nova Scotia.
