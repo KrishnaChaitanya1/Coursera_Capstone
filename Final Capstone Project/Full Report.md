@@ -5,7 +5,7 @@
 **2. Data Description**  
 **3. Methodology**  
 **4. Results**  
-**5. Discussions: Observations and Recommendations to be made**  
+**5. Discussions**  
 **6. Conclusion**
 
 
@@ -62,19 +62,20 @@ The notebook for Cleaning New York City Data is available [here](https://github.
 ### Step 3: Visualization
 A few simple visualizations are made in order to get a better understanding of the data. **Folium** is used for this purpose.
 **Folium** generates interactive and beautiful maps, using the Latitude and Longitude we provide. The folium visualizations will be made available in the comments section.  
-Further to enhance the understanding of the data, **scatter plots** and various other types of plots will be added
+Further to enhance the understanding of the data, **count plots** are used to better understand the final result.
 
 ### Step 4: Machine Learning
-KMeans clustering algorithm is used to identify the probable clusters for different types of restaurants.
+KMeans clustering algorithm is used on the most common venues dataframe to identify the probable clusters for different types of restaurants. In both the datasets, we have initialized 5 clusters.
 
 ## Results
-
+1. As expected, American Restaurant has highest count in Brooklyn as **1st Most Common Restaurant**. But American Restaurant has highest count in Downtown Toronto as **2nd Most Common Restaurant**. However we can conclude that American Restaurants dominate both Brooklyn and Downtown Toronto. But the graph for 1st Most Common Restaurant says that highest count in Downtown Toronto is 'Restaurant'. But what type of cuisine does it serve is not mentioned. To further understand how to solve this refer **Discussions** section.
+2. In Brooklyn, 1st Most Common Restaurant have American Restaurant as top followed by Italian and Caribbean Restaurant. For 2nd Most Common Restaurant, we have rather a different picture. It is topped by Italian and Vietnamese followed by American, Vegetarian and Chinese Restaurants.
+3. In Downtown Toronto, 1st Most Common Restaurant we have 'Restaurant' as top. But what kind of cuisine they serve is unknown, which is a discrepancy. However it is followed by Vietnamese Restaurant. For 2nd Most Common Restaurant, American and Greek Restaurants take top spot.
 
 ## Discussions
-
-
+There is a small discrepancy in the datasets. There are some entries in the dataset that just say 'Restaurant'. We can consider this type as a restaurant which serves different cuisines. We may be right or we may be wrong. There are a few methods by which we can solve this discrepancy. One such method is to consider this restaurant as a majority cuisine in that area. Example: If in an area, American Cuisine has highest count, we can consider this 'Restaurant' as an American Restaurant.  
+The problem with this method is we might not always be correct. Another concrete way of solving this is rather tiresome approach, which is not feasible. We look for the corresponding coordinates and use google to find what type of restaurant is that.
 
 ## Conclusion
-Therefore, this notebook serves as a reference to identify the relations between food cuisines between Toronto and New York City.
-This notebook can be extended to include not only the data related to restaurants but also other aspects.  
-**References Used**:
+Hence, this notebook serves as a reference to identify the relations between food cuisines between Toronto and New York City.
+This notebook can be extended to include not only the data related to restaurants but also other aspects.
