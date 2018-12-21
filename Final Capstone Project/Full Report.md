@@ -76,4 +76,5 @@ KMeans clustering algorithm is used to identify the probable clusters for differ
 
 ## Conclusion
 Therefore, this notebook serves as a reference to identify the relations between food cuisines between Toronto and New York City.
-This notebook can be extended to include not only the data related to restaurants but also other aspects.
+This notebook can be extended to include not only the data related to restaurants but also other aspects.  
+**References Used**:
