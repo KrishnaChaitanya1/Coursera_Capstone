@@ -10,7 +10,7 @@
 
 
 ## Introduction
-**Identifying the relation between food in Toronto, Canada and Paris, France.**  
+**Identifying the relation between food in Toronto, Canada and Nova Scotia, Canada.**  
 How does the types of cuisines in Toronto and Nova Scotia vary?
 Is there any dominant cuisine in these regions?
 These are a few of the questions to be answered in the notebook. We don't know what insights we may uncover.  
