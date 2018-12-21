@@ -3,7 +3,7 @@
 ## Sections:
 **1. Introduction**  
 **2. Data Description**  
-**3. Methodology: EDA, Inferential Statistics, Machine Learning to be added**  
+**3. Methodology**  
 **4. Results**  
 **5. Discussions: Observations and Recommendations to be made**  
 **6. Conclusion**
