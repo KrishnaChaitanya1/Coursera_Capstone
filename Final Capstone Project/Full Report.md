@@ -76,6 +76,8 @@ KMeans clustering algorithm is used on the most common venues dataframe to ident
 There is a small discrepancy in the datasets. There are some entries in the dataset that just say 'Restaurant'. We can consider this type as a restaurant which serves different cuisines. We may be right or we may be wrong. There are a few methods by which we can solve this discrepancy. One such method is to consider this restaurant as a majority cuisine in that area. Example: If in an area, American Cuisine has highest count, we can consider this 'Restaurant' as an American Restaurant.  
 The problem with this method is we might not always be correct. Another concrete way of solving this is rather tiresome approach, which is not feasible. We look for the corresponding coordinates and use google to find what type of restaurant is that.
 
+For some reason GitHub is not displaying Folium Maps, so these maps are included in a new folder called **Map Images** which can be found [here](https://github.com/KrishnaChaitanya1/Coursera_Capstone/tree/master/Final%20Capstone%20Project/Map%20Images)
+
 ## Conclusion
 Hence, this notebook serves as a reference to identify the relations between food cuisines between Toronto and New York City.
 This notebook can be extended to include not only the data related to restaurants but also other aspects.
